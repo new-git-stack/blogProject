@@ -1,0 +1,35 @@
+
+ WEEK 13
+
+ Daily Summary
+
+ Monday:
+  Kicked off the final group project, where we decided to build a news search and display app using React, React Router, Bootstrap, and the News API. We discussed task assignments, and my primary responsibility was fetching and processing data from the API.
+
+ Tuesday:
+  Set up the Vite + React project, configured the `App.jsx` and `Home.jsx` files, and started integrating Bootstrap for styling and layout components. Imported assets and initialized the API endpoint for news fetching.
+
+ Wednesday:
+  Implemented the asynchronous API calls with `fetch()`, handling various states like loading, errors, and successful data retrieval. Tested the API with a default query and randomized the number of fetched articles for variety.
+
+ Thursday:
+  Enhanced the `Home.jsx` component with a fully functional search bar. Connected it to the API so that users could search for different news topics, and ensured the results updated dynamically without page reloads.
+
+ Friday:
+  Refined the UI with Bootstrap and custom CSS, ensuring proper spacing, colors, and typography. Tested responsiveness, fixed broken image handling, and prepared the app for presentation. Finalized my contribution and supported teammates with integration.
+
+---
+
+ Weekly Narrative
+
+Week 13 marked the culmination of our learning journey, where we applied everything we had learned into a group project that simulated a real-world collaborative development experience. The goal was to build a functional and attractive news search and display app using React, Vite, and Bootstrap, powered by the News API.
+
+On Monday, our team planned the project and divided responsibilities. My role focused on implementing the data-fetching logic: constructing and testing the API calls, managing state, and ensuring the app handled success, error, and loading scenarios gracefully.
+
+We began by setting up the project scaffolding using Vite and React, and adding React Router for navigation. Bootstrap was integrated to accelerate styling and maintain a professional design. In `Home.jsx`, I implemented an asynchronous `getNews()` function which fetched articles based on a default search term and a randomized number of results to keep the experience dynamic.
+
+Midweek, I extended the functionality with a search bar that let users query any topic. Handling the user input required controlling the `searchValue` state and updating the API call accordingly. We also used a loading spinner and error messages to improve user feedback during API calls.
+
+Thursday and Friday were devoted to polishing: integrating Bootstrap and custom CSS for a clean, responsive design, and debugging issues such as missing images or inconsistent article fields from the API. My teammates worked on layout tweaks and additional UI elements while I ensured the API logic was robust and reliable.
+
+This project not only showcased our collective technical skills but also taught us how to work effectively as a team, dividing tasks, merging work, and supporting each other under time constraints. Personally, it strengthened my knowledge of asynchronous programming, React state management, and the use of external APIs in real projects — all essential skills for a professional frontend developer.
